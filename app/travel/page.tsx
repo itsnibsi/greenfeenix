@@ -15,7 +15,7 @@ export default function Home() {
 
       <p>GF offers sustainable development consultancy for travel businesses and agencies such as hotels, campsite areas and airports. GF works in collaboration with various eco-friendly products/companies that can provide all necessary tools for sustainable development/responsible traveling for travel businesses. Consultancy is based on site survey which strives to seek the best sustainable solutions case-by-case.</p>
 
-      <p>GF works for travel businesses without negatively affecting customer satisfaction. The sustainability consultancy's aim is to reduce energy- and water consumption, to reduce waste and surplus food, to improve the green growth of businesses and make the sustainability actions easy to conduct.</p>
+      <p>GF works for travel businesses without negatively affecting customer satisfaction. The sustainability consultancy&apos;s aim is to reduce energy- and water consumption, to reduce waste and surplus food, to improve the green growth of businesses and make the sustainability actions easy to conduct.</p>
 
       <p>GF offers guidelines for sustainable travel business and/or conducts the operational works behalf of collaboration companies. All of the GF:s sustainability actions and works targets to make brand improvement and savings for the travel business agencies.</p>
 
