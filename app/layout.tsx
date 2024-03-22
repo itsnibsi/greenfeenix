@@ -32,13 +32,13 @@ export default function RootLayout({
             <aside className="md:order-first w-full md:w-2/6">
               <Sidebar />
             </aside>
-            <div className='md:w-4/6'>
+            <div id="content" className='p-4 pt-8 md:p-0 md:w-4/6'>
               {children}
             </div>
           </div>
-          <div className='flex text-gray-600 md:flex-row justify-between border-orange-200 border-t-2 my-8 py-8'>
-            <p>&copy; 2024- GreenFeenix</p>
-            <nav className='flex gap-4 [&>a]:underline [&>a:hover]:text-green-700'>
+          <div className='flex text-gray-600 flex-col lg:flex-row flex-wrap justify-between border-orange-200 border-t-2 my-8 py-8'>
+            <p className='text-center lg:text-left'>&copy; 2024- GreenFeenix</p>
+            <nav className='flex flex-col lg:flex-row items-center gap-4 pt-4 lg:pt-0 [&>a]:underline [&>a:hover]:text-green-700 text-center lg:text-left'>
               <Link href="/">Home</Link>
               <Link href="/travel">Travel</Link>
               <Link href="/construction-real-estate">Construction Businesses</Link>
