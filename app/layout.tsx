@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: "GreenFeenix",
     template: "%s | GreenFeenix",
   },
-  description: "Rising Sustainability",
+  description: "Rising Sustainability"
 };
 
 export default function RootLayout({
@@ -26,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/favicon.png" sizes="any" />
+      </head>
       <body className={fontSans.className}>
         <div className="md:container md:py-8 md:px-14 md:mx-auto">
           <div className="flex flex-col md:flex-row pb-8">
