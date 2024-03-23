@@ -1,6 +1,9 @@
 import Image from 'next/image';
+import { Metadata } from 'next';
 
-type LanguageProficiency = "fluent" | "half" | undefined;
+export const metadata: Metadata = {
+  title: 'Research & Innovation',
+};
 
 type Contact = {
   name: string;

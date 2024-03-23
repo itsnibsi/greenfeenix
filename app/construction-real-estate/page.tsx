@@ -1,4 +1,9 @@
 import ContactCallout from '@/components/ContactCallout';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Construction Businesses & Real Estate',
+};
 
 export default function Home() {
   return (

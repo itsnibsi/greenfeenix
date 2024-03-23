@@ -1,4 +1,9 @@
 import ContactCallout from '@/components/ContactCallout';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Research & Innovation',
+};
 
 export default function Home() {
   return (

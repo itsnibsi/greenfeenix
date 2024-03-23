@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col p-4">
       <Link href="/" className="md:-mt-8 -mt-0"><Logo /></Link>
-      <nav className="flex flex-col items-start gap-4 [&>a.active]:text-green-700 [&>a.active]:font-semibold [&>a]:underline [&>a:hover]:text-green-700">
+      <nav className="flex flex-col items-start gap-4 text-lg [&>a.active]:bg-green-500 [&>a.active]:text-white [&>a]:px-3 [&>a]:py-1 [&>a.active]:font-semibold [&>a:not(.active):hover]:bg-orange-200">
         <Link href="/#content" className={`link ${pathname === '/' ? 'active' : ''}`}>Home</Link>
         <Link href="/travel#content" className={`link ${pathname === '/travel' ? 'active' : ''}`}>Travel Businesses</Link>
         <Link href="/construction-real-estate#content" className={`link ${pathname === '/construction-real-estate' ? 'active' : ''}`}>Construction Businesses</Link>
