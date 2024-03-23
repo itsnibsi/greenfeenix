@@ -105,14 +105,15 @@ const PhoneNumbersList = ({
   return (
     <ul>
       {phoneNumbers.map((phone) => (
-        <li key={phone.country}>
+        <li key={phone.country} className="mb-1">
           Tel:{" "}
           <a
             className="duration-20 text-green-600 underline transition-colors hover:text-orange-500"
             href="tel:{phone.number}"
           >
-            {phone.number} / {phone.country}
-          </a>
+            {phone.number}
+          </a>{" "}
+          / {phone.country}
         </li>
       ))}
     </ul>
@@ -129,13 +130,13 @@ export default function Home() {
         {contacts.map((contact) => (
           <div key={contact.name} className="flex items-center gap-4">
             <div>
-              <h2 className="text-lg font-semibold ">
+              <h2 className="mb-2 text-lg font-semibold">
                 {contact.name}{" "}
                 {contact.languages && (
                   <SpokenLanguagesList languages={contact.languages} />
                 )}
               </h2>
-              <h3 className="text-md">{contact.jobTitle}</h3>
+              <h3 className="text-md mb-2">{contact.jobTitle}</h3>
               {contact.phoneNumbers && (
                 <PhoneNumbersList phoneNumbers={contact.phoneNumbers} />
               )}
