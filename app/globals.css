@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.prose {
-  h2 {
-    @apply text-green-500;
-    @apply border-b-orange-200;
-    @apply border-b-2;
-    @apply pb-4;
-  }
+.prose h2 {
+  @apply text-green-500;
+  @apply border-b-orange-200;
+  @apply border-b-2;
+  @apply pb-4;
 }

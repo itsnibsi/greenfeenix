@@ -122,7 +122,7 @@ export default function Home() {
               <h2 className="text-lg font-semibold ">{contact.name} {contact.languages && <SpokenLanguagesList languages={contact.languages} />}</h2>
               <h3 className="text-md">{contact.jobTitle}</h3>
               {contact.phoneNumbers && <PhoneNumbersList phoneNumbers={contact.phoneNumbers} />}
-              {contact.emailAddress && <>Email: <a href={`mailto:${contact.emailAddress}`}>{contact.emailAddress}</a></>}
+              {contact.emailAddress && <>Email: <a className='text-green-600 hover:text-orange-500 underline transition-colors duration-200'  href={`mailto:${contact.emailAddress}`}>{contact.emailAddress}</a></>}
             </div>
           </div>
         ))}
