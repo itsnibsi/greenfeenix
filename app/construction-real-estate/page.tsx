@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose">
+    <main className="prose max-w-none">
       <h2>Construction Businesses / Real Estate</h2>
 
       <p>

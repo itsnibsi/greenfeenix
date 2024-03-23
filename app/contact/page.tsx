@@ -122,7 +122,7 @@ const PhoneNumbersList = ({
 export default function Home() {
   return (
     <main>
-      <div className="prose mb-8">
+      <div className="prose mb-8 max-w-none">
         <h2>Contact Us</h2>
       </div>
       <div className="flex flex-col gap-8">
