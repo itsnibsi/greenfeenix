@@ -66,6 +66,13 @@ export default function Home() {
         businesses needs to be taken Seriously NOW!
       </p>
 
+      <h3>References</h3>
+
+      <p>
+        Finca la Loma Vélez-Málaga/Rural accommodations. General sustainable
+        development consulting.
+      </p>
+
       <ContactCallout />
     </main>
   );

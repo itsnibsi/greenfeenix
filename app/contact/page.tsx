@@ -125,7 +125,7 @@ export default function Home() {
       <div className="prose mb-8">
         <h2>Contact Us</h2>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-8">
         {contacts.map((contact) => (
           <div key={contact.name} className="flex items-center gap-4">
             <div>
