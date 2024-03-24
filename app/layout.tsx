@@ -53,7 +53,7 @@ export default function RootLayout({
             <aside className="w-full md:order-first md:w-2/6">
               <Sidebar />
             </aside>
-            <div id="content" className="p-4 pt-8 md:w-4/6 md:p-0">
+            <div id="content" className="p-4 md:w-4/6 md:p-0 md:pt-8">
               {children}
             </div>
           </div>
