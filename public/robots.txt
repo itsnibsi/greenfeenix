@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://greenfeenix.com
+
+# Sitemaps
+Sitemap: https://greenfeenix.com/sitemap.xml
