@@ -55,10 +55,10 @@ const contacts = [
       },
     ],
   },
-  {
-    name: "Arttu Kauppi",
-    jobTitle: "Real Estate/construction works and installations",
-  },
+  // {
+  //   name: "Arttu Kauppi",
+  //   jobTitle: "Real Estate/construction works and installations",
+  // },
 ];
 
 const spokenLanguageStringToHumanReadable = (langString: string): string => {
