@@ -20,7 +20,7 @@ export default function NavigationLinks() {
         href="/construction-real-estate#content"
         className={`link ${pathname === "/construction-real-estate" ? "active" : ""}`}
       >
-        Construction Businesses
+        Construction Businesses / Real Estate
       </Link>
       <Link
         href="/cities-communities#content"
